@@ -1,0 +1,45 @@
+.contenido {
+  @include flex (column, flex-start, stretch);
+  margin: 0 auto;
+  padding: 0;
+
+  &__titulo{
+    text-align: center;
+
+    h2{
+      margin-bottom: 25px;
+      font-size: 30px;
+    }
+  }
+  &__multi{
+    &-trailer{
+      iframe{
+        width: 100%;
+        max-width: 711px;
+      }
+    }
+
+    &-poster{
+      img{
+        height: 350px;
+        width: 233px;
+      }
+    }
+    &-boton{
+      &--estilo{
+        margin-top: 15px;
+        width: 233px;
+        height: 30px;
+        background-color: $azulOscuro;
+        color: $azulClaro;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.trailer-info{
+  margin-bottom: 50px;
+}

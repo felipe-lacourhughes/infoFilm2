@@ -1,0 +1,22 @@
+{
+  "name": "infofilm_lacourhughes",
+  "version": "1.0.0",
+  "description": "La pagina se llama infoFilm y la estoy haciendo para el proyecto final del curso de Desarrollo Web de CODERHOUSE",
+  "main": "index.js",
+  "scripts": {
+    "build-sass":"node-sass --include-path scss scss/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipe-lacour/preentrega2-lacourhughes.git"
+  },
+  "author": "Felipe Lacour Hughes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipe-lacour/preentrega2-lacourhughes/issues"
+  },
+  "homepage": "https://github.com/felipe-lacour/preentrega2-lacourhughes#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

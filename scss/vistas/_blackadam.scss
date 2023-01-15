@@ -1,0 +1,116 @@
+/* div black adam*/
+#blackpantherfondo{
+  background-image: url(../imagenes/blkpnthr-fondo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#blkadmfondo{
+  background-image: url(../imagenes/blkadm-fondo.jpeg);
+  background-position: 50% 35%;
+}
+
+.black-adam__fondo {
+  height: 500px;
+  @include flex (row, space-around, center);
+
+  &-titulo{
+    font-size: 50px;
+    color: rgb(156, 166, 196);
+    background-color: $negroFilm;
+    word-wrap: nowrap;
+    width: auto;
+  }
+}
+
+/* main contenido black adam*/
+main{
+  margin-top: 50px;
+}
+.black-adam__pagina-titulo{
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.media, 
+.elenco {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.media{
+  &__contenido{
+    margin: 0 auto;
+
+    iframe{
+      max-width: 670px;
+      width: 100%;
+    }
+
+    &-img{
+      height: 400px;
+      width: 267px;
+    }
+  }
+}
+
+.info {
+  @include flex (row, flex-start, stretch);
+  margin: 50px auto;
+  max-width: 1080px;
+  padding: 10px;
+
+  &__texto{
+    text-align: justify;
+    text-justify: inter-word;
+
+    &-titulo{
+      font-size: 30px;
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+
+    &-texto{
+      height: 400px;
+      overflow-y: scroll;
+    }
+  }
+  &__img{
+    margin: 0 0 0 50px;
+    padding-top: 50px;
+
+    img{
+      height: 200px;
+      width: 200px;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    &-responsive{
+      display: none;
+    }
+  }
+}
+
+.elenco {
+  padding: 10px;
+  &__actores{
+    &-actor{
+      width: 135px;
+    }
+    &-individuales{
+      &--img{
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 50px;
+        margin-bottom: 10px;
+      }
+
+      &--titulo{
+        margin-bottom: 3px;
+        font-size: 14px;
+      }
+    }
+  }
+}

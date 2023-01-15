@@ -1,0 +1,72 @@
+// mobile first
+@media (min-width:460px){
+  .boton_regreso{
+    font-size: medium;
+    padding: 10px 15px;
+  }
+}
+
+@media (min-width: 600px){
+
+  .jurassic{
+    &_carousel{
+      height: 380px;
+      &-img{
+        height: 380px;
+      }
+    }
+
+  }
+}
+
+@media (min-width: 700px){
+  .jurassic{
+    &_carousel{
+      height: 400px;
+      &-img{
+        height: 400px;
+      }
+    }
+  }
+}
+
+@media (min-width: 900px){
+  .jurassic{
+    &_carousel{
+      height: 450px;
+      &-img{
+        height: 450px;
+      }
+    }
+  }
+}
+
+@media (min-width: 800px){
+  .jurassic{
+    &_div{
+      &-info{
+        @include grid (stretch, flex-start, 0, 0, 75% 25%, none);
+      }
+    }
+    &_simbolos{
+      &-titulos{
+        display: none;
+      }
+      &-iconos{
+        @include grid (stretch, flex-start, 20px, 0, 1fr, 200px 1fr);
+        &__review{
+          &--flex{
+            @include flex (column, space-between, center);
+          }
+        }
+        &__redes{
+          @include flex (column, space-between, center);
+          width: 90px;
+          &--flex{
+            justify-content: center;
+          }
+        }
+      }              
+    }
+  }
+}

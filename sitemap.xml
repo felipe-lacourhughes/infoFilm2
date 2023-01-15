@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://preentrega2-lacourhughes.vercel.app/</loc>
+  <lastmod>2022-12-27T23:24:27+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://preentrega2-lacourhughes.vercel.app/index.html</loc>
+  <lastmod>2022-12-27T23:24:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://preentrega2-lacourhughes.vercel.app/windows/tendencias_window.html</loc>
+  <lastmod>2022-12-27T23:24:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://preentrega2-lacourhughes.vercel.app/windows/nuevos-lanzamientos_window.html</loc>
+  <lastmod>2022-12-27T23:24:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://preentrega2-lacourhughes.vercel.app/windows/clasicos_window.html</loc>
+  <lastmod>2022-12-27T23:24:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://preentrega2-lacourhughes.vercel.app/windows/ver_mas-blkadm.html</loc>
+  <lastmod>2022-12-27T23:24:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://preentrega2-lacourhughes.vercel.app/windows/contacto.html</loc>
+  <lastmod>2022-12-27T23:24:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://preentrega2-lacourhughes.vercel.app/windows/noexiste.html</loc>
+  <lastmod>2022-12-27T23:24:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

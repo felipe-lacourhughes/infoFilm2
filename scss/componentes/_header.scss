@@ -1,0 +1,88 @@
+header{
+  background-color: $azulOscuro;
+}
+.header{
+  @include flex (row, space-between, center);
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 15px 0;
+
+  &__logo{
+    margin-left: 20px;
+
+    &-boton{
+      border: none;
+      font-weight: bold;
+      font-size: 40px;
+      background-color: $azulOscuro;
+      color: rgb(217, 48, 48);
+      cursor: pointer;
+      animation: animacion-logo 1s ease-in; 
+
+      &--film{
+        color: rgb(115, 72, 34);
+      }
+    }
+  }
+
+  &__input{
+    &-bar{
+      width: 500px;
+      height: 40px;
+      border-radius: 200px;
+      background-color: $azulOscuro;
+      border-style: solid;
+      border-width: 2px;
+      border-color: $azulClaro;
+      color: $azulClaro;
+      padding: 0px 15px;
+    }
+  }
+
+  &__dropdown{
+    margin-right: 20px;
+    &-lista{
+      width: max-content;
+      padding: 15px;
+      background-color: $azulOscuro;
+      text-align: center;
+      border: 1px $azulClaro solid;
+      transition: all 0.3px;
+      &--item{
+        color: rgb(217, 48, 48);
+        font-weight: bold;
+      }
+    }
+    &-boton{
+      background-color: $azulOscuro;
+      color: rgb(217, 48, 48);
+      font-weight: bold;
+      transition: 0.3s;
+      border: 1px $azulClaro solid;
+
+      &:hover{
+        opacity: 0.8;
+        color: rgb(217, 48, 48);
+        background-color: $azulOscuro;
+      }
+
+      &:active{
+        opacity: 0.6;
+        color: rgb(217, 48, 48);
+        background-color: $azulOscuro;
+      }
+      
+    }
+  }
+}
+
+@keyframes animacion-logo {
+  0% {
+    transform: scale(0);
+  }
+
+
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,15 @@
+@media (max-width: 991px){
+
+  .contenido{
+    &__multi{
+      &-posterboton{
+        margin-top: 25px;
+      }
+      &-boton{
+        &--estilo{
+          height: 50px;
+        }
+      }
+    }
+  }
+}

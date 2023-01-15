@@ -1,0 +1,93 @@
+.window__contenido{
+  margin: 0 auto;
+  max-width: 1080px;
+
+  h1{
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+.nuevos-lanzamientos{
+  display: flex;
+  margin-top: 50px;
+  height: 380px;
+  padding: 15px;
+  transition: 0.15s;
+
+  &:hover{
+    box-shadow: 0px 0px 20px rgba(13, 13, 13, 0.5);
+    border-radius: 10px;
+  }
+
+  &__img{
+    img{
+      width: 232px;
+      height: 350px;
+    }
+  }
+
+  &__imgreview-responsive{
+    display: none;
+  }
+  &__contenido{
+    margin-left: 25px;
+    @include flex (column, flex-start, stretch);
+
+    &-titulo{
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    &-boton{
+      &--estilo{
+        background-color: $azulOscuro;
+        color: $azulClaro;
+        border: 0;
+        border-radius: 45px;
+        padding: 5px 10px;
+      }
+    }
+    &-texto{
+      height: 60%;
+      overflow-y: scroll;
+      text-align: justify;
+
+    }
+
+    &__texto-sinopsis{
+      margin: 0;
+    }
+
+    &-info{
+      @include flex (row, space-between, stretch);
+      margin-top: 10px;
+
+      &--flex{
+        @include flex (column, flex-end, stretch);
+      }
+    }
+  }
+
+  &-img__review-percentage{
+    height: 125px;
+    width: 125px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 75px;
+  }
+
+  &__guia{
+    margin-top: 45px;
+  }
+}
+
+#titulo_clasicos{
+  @include flex (row, space-between, center);
+  vertical-align: center;
+  margin-bottom: 15px;
+
+  h2{
+    margin: 0;
+  }
+}
